@@ -37,6 +37,7 @@
 #include <flex_nav_planners/follow_common.h>
 #include <flex_nav_planners/follow_topic.h>
 #include <geometry_msgs/Twist.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
 namespace flex_nav {
 FollowTopic::FollowTopic(tf2_ros::Buffer &tf)
